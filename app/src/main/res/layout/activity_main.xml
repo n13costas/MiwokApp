@@ -14,7 +14,8 @@
         android:background="#ff5722"
         android:textColor="@color/fontColor"
         android:textStyle="bold"
-        android:text="Numbers" />
+        android:text="Numbers"
+        android:onClick="openNumbersList"/>
 
     <TextView
         android:id="@+id/textview_family"
@@ -25,7 +26,8 @@
         android:textColor="@color/fontColor"
         android:textStyle="bold"
         android:layout_below="@id/textview_numbers"
-        android:text="Family Members" />
+        android:text="Family Members"
+        android:onClick="openFamilyList"/>
 
     <TextView
         android:id="@+id/textview_colors"
@@ -36,7 +38,8 @@
         android:textColor="@color/fontColor"
         android:textStyle="bold"
         android:layout_below="@id/textview_family"
-        android:text="Colors" />
+        android:text="Colors"
+        android:onClick="openColorsList"/>
 
     <TextView
         android:id="@+id/textview_phrases"
@@ -47,6 +50,7 @@
         android:textColor="@color/fontColor"
         android:textStyle="bold"
         android:layout_below="@id/textview_colors"
-        android:text="Phrases" />
+        android:text="Phrases"
+        android:onClick="openPhrasesList"/>
 
 </RelativeLayout>
