@@ -13,6 +13,7 @@
         android:padding="20dp"
         android:background="#ff5722"
         android:textColor="@color/fontColor"
+        android:textStyle="bold"
         android:text="Numbers" />
 
     <TextView
@@ -22,6 +23,7 @@
         android:padding="20dp"
         android:background="#4caf50"
         android:textColor="@color/fontColor"
+        android:textStyle="bold"
         android:layout_below="@id/textview_numbers"
         android:text="Family Members" />
 
@@ -32,6 +34,7 @@
         android:padding="20dp"
         android:background="#9c27b0"
         android:textColor="@color/fontColor"
+        android:textStyle="bold"
         android:layout_below="@id/textview_family"
         android:text="Colors" />
 
@@ -42,6 +45,7 @@
         android:padding="20dp"
         android:background="#03a9f4"
         android:textColor="@color/fontColor"
+        android:textStyle="bold"
         android:layout_below="@id/textview_colors"
         android:text="Phrases" />
 
